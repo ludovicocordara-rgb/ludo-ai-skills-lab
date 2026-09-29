@@ -15,6 +15,7 @@ This skill ships `scripts/three_statement.py`:
 
 ```
 pip install openpyxl
+# if pip says "externally-managed-environment": python3 -m venv .venv, then source .venv/bin/activate (Windows: .venv\Scripts\activate), then pip install again
 python3 <this skill's folder>/scripts/three_statement.py model.xlsx                 # sample numbers
 python3 <this skill's folder>/scripts/three_statement.py model.xlsx --inputs my.json # a real company
 ```

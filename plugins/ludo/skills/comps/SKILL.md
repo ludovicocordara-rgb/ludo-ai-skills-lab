@@ -28,6 +28,7 @@ This skill ships `scripts/comps_template.py`. It builds an Inputs tab (one row p
 
 ```
 pip install openpyxl
+# if pip says "externally-managed-environment": python3 -m venv .venv, then source .venv/bin/activate (Windows: .venv\Scripts\activate), then pip install again
 python3 <this skill's folder>/scripts/comps_template.py comps.xlsx                     # sample layout
 python3 <this skill's folder>/scripts/comps_template.py comps.xlsx --inputs data.json  # real companies
 ```

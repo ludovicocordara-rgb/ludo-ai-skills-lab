@@ -22,6 +22,13 @@ Still stuck: run `claude doctor` and show the output to a TA.
 | Tools don't start | Install Node.js LTS from nodejs.org, open a new terminal, run the tools install line again. |
 | Windows: tools fail with `npx` errors | Make sure you installed `ludo-tools-windows`, not `ludo-tools`. |
 
+## Python packages
+
+| Problem | Fix |
+|---|---|
+| `pip install` says `externally-managed-environment` | Make a private environment in your project: `python3 -m venv .venv`, then `source .venv/bin/activate` (Windows: `.venv\Scripts\activate`), then run the `pip install` again. Or just ask Claude to do it. |
+| `python3` not found on Windows | Use `python` instead, or install Python from python.org and tick "Add to PATH". |
+
 ## Using Claude
 
 | Problem | Fix |

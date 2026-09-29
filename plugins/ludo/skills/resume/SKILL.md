@@ -11,6 +11,7 @@ One format, one script, one page. The format is the classic one recruiters in fi
 
 ```
 pip install python-docx
+# if pip says "externally-managed-environment": python3 -m venv .venv, then source .venv/bin/activate (Windows: .venv\Scripts\activate), then pip install again
 ```
 
 For a PDF you also need LibreOffice (free). Without it, open the .docx in Word or Google Docs and export to PDF.

@@ -17,6 +17,7 @@ This skill ships `scripts/dcf_template.py`, which builds a complete, formula-dri
 
 ```
 pip install openpyxl
+# if pip says "externally-managed-environment": python3 -m venv .venv, then source .venv/bin/activate (Windows: .venv\Scripts\activate), then pip install again
 python3 <this skill's folder>/scripts/dcf_template.py dcf.xlsx                  # sample numbers to learn on
 python3 <this skill's folder>/scripts/dcf_template.py dcf.xlsx --inputs my.json  # the real company
 ```

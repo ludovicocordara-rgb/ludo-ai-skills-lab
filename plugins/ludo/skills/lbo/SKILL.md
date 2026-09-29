@@ -17,6 +17,7 @@ This skill ships `scripts/lbo_template.py`, a complete formula-driven workbook:
 
 ```
 pip install openpyxl
+# if pip says "externally-managed-environment": python3 -m venv .venv, then source .venv/bin/activate (Windows: .venv\Scripts\activate), then pip install again
 python3 <this skill's folder>/scripts/lbo_template.py lbo.xlsx                 # sample numbers
 python3 <this skill's folder>/scripts/lbo_template.py lbo.xlsx --inputs my.json # a real company
 ```
