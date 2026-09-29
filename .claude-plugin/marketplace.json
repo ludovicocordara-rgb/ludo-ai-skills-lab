@@ -9,7 +9,7 @@
     {
       "name": "ludo",
       "source": "./plugins/ludo",
-      "description": "33 skills and 4 agents for school, careers, finance, building and working faster with Claude Code."
+      "description": "50 skills and 4 agents for school, careers, finance, building and working faster with Claude Code."
     },
     {
       "name": "ludo-tools",

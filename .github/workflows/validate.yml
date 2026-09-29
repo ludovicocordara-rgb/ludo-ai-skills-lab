@@ -32,6 +32,8 @@ jobs:
           python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/resume/scripts/build_resume.py" "$GITHUB_WORKSPACE/plugins/ludo/skills/resume/examples/sample.json" r.docx
           python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/dcf/scripts/dcf_template.py" d.xlsx
           python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/comps/scripts/comps_template.py" c.xlsx
+          python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/lbo/scripts/lbo_template.py" l.xlsx
+          python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/three-statement/scripts/three_statement.py" t.xlsx
           python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/pack-code/scripts/pack.py" "$GITHUB_WORKSPACE" -o p.md
           echo '{"model":{"display_name":"Sonnet"},"context_window":{"used_percentage":50}}' | python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/usage-meter/scripts/usage-meter.py"
       - name: Installer syntax (bash)

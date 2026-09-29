@@ -1,6 +1,6 @@
 # Ludo's AI Skills Lab
 
-**33 skills, 4 agents and 2 power tools that turn Claude Code into a research assistant, tutor, analyst, designer and engineer.** One install. Works on Mac and Windows.
+**50 skills, 4 agents and 2 power tools that turn Claude Code into a research assistant, tutor, analyst, designer and engineer.** One install. Works on Mac and Windows.
 
 Built by [Ludovico Cordara](https://www.linkedin.com/in/ludovico-cordara), founder of [Krypton AI](https://kryptonai.io), for the AI Skills Lab at the Claremont Colleges, run with the Randall Lewis Center for Innovation and Entrepreneurship and Anthropic.
 
@@ -38,13 +38,14 @@ Step-by-step guides: [Mac](docs/install-mac.md) · [Windows](docs/install-window
 
 | | |
 |---|---|
-| **Start here** | `about-me` teaches Claude who you are · `ask-first` makes Claude ask before building · `plan` writes a plan.md · `short-answers` cuts the rambling · `remember` gives Claude memory across sessions · `usage-meter` shows your model and context in a status bar |
-| **Research and the web** | `research` answers with a link on every fact · `scrape` pulls any website into a spreadsheet · `whats-new` covers the last 30 days on any topic · `video-notes` turns lectures and YouTube into notes |
-| **School** | `study` quizzes you from your own notes · `explain` explains anything from zero · `cite` formats APA, MLA and Chicago · `second-brain` organizes your notes |
-| **Career** | `resume` builds a one-page resume · `job-hunt` scores postings and tracks applications · `pitch` writes copy that converts · `idea-check` pressure-tests an idea |
-| **Finance** | `comps` builds a live comps sheet · `dcf` builds a live DCF with sensitivity · `earnings` summarizes a quarter · `stock-pitch` prepares a club or interview pitch |
-| **Make things** | `design` for sites that don't look AI-made · `slides` for decks · `diagram` for clean diagrams · `spreadsheet` for real Excel · `pdf` for anything PDF · `sound-human` rewrites AI-sounding text |
-| **Build and ship code** | `code-carefully` stops over-building · `fix-it` finds the real cause · `code-review` checks before you deploy · `pack-code` shares a project with any AI · `autopilot` works through a task list on its own |
+| **Start here** | `about-me` teaches Claude who you are (and adds the lab's working rules) · `ask-first` · `brainstorm` · `plan` · `short-answers` · `remember` · `usage-meter` · `prompt-coach` |
+| **Research and the web** | `research` answers with a link on every fact · `deep-research` writes a full cited report · `scrape` pulls any website into a spreadsheet · `whats-new` covers the last 30 days · `video-notes` turns lectures into notes |
+| **School** | `study` quizzes you from your notes · `explain` · `paper` helps you write, you stay the author · `cite` formats APA, MLA and Chicago · `second-brain` |
+| **Career** | `resume` · `job-hunt` scores postings and tracks applications · `pitch` · `idea-check` |
+| **Finance** | `comps`, `dcf`, `lbo` and `three-statement` build live Excel models · `earnings` · `equity-note` · `stock-pitch` |
+| **Make things** | `design` · `mockup` · `brand-kit` · `slides` · `powerpoint` · `word-doc` · `diagram` · `spreadsheet` · `pdf` · `video-cut` · `sound-human` |
+| **Daily life** | `morning` briefs your day from Gmail and Calendar · `journal` |
+| **Build and ship code** | `code-carefully` · `test-first` · `fix-it` · `code-review` · `save-points` (git, explained) · `pack-code` · `autopilot` · `make-skill` builds your own skills |
 
 Full list with descriptions: [docs/skills.md](docs/skills.md)
 
@@ -58,6 +59,10 @@ Full list with descriptions: [docs/skills.md](docs/skills.md)
 - **docs**: current documentation for any coding library, so Claude stops writing code for old versions.
 
 Details: [docs/tools.md](docs/tools.md)
+
+### Connect your Gmail, Calendar and Drive
+
+Free with Pro, switched on in claude.ai settings. Guide and safety rules: [docs/connectors.md](docs/connectors.md)
 
 ---
 

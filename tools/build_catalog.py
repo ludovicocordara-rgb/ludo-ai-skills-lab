@@ -13,13 +13,16 @@ SKILLS = ROOT / "plugins" / "ludo" / "skills"
 AGENTS = ROOT / "plugins" / "ludo" / "agents"
 
 GROUPS = [
-    ("Start here", ["about-me", "ask-first", "plan", "short-answers", "remember", "usage-meter"]),
-    ("Research and the web", ["research", "scrape", "whats-new", "video-notes"]),
-    ("School", ["study", "explain", "cite", "second-brain"]),
+    ("Start here", ["about-me", "ask-first", "brainstorm", "plan", "short-answers", "remember", "usage-meter", "prompt-coach"]),
+    ("Research and the web", ["research", "deep-research", "scrape", "whats-new", "video-notes"]),
+    ("School", ["study", "explain", "paper", "cite", "second-brain"]),
     ("Career", ["resume", "job-hunt", "pitch", "idea-check"]),
-    ("Finance", ["comps", "dcf", "earnings", "stock-pitch"]),
-    ("Make things", ["design", "slides", "diagram", "spreadsheet", "pdf", "sound-human"]),
-    ("Build and ship code", ["code-carefully", "fix-it", "code-review", "pack-code", "autopilot"]),
+    ("Finance", ["comps", "dcf", "lbo", "three-statement", "earnings", "equity-note", "stock-pitch"]),
+    ("Make things", ["design", "mockup", "brand-kit", "slides", "powerpoint", "word-doc", "diagram", "spreadsheet", "pdf",
+                     "video-cut", "sound-human"]),
+    ("Daily life", ["morning", "journal"]),
+    ("Build and ship code", ["code-carefully", "test-first", "fix-it", "code-review", "save-points", "pack-code", "autopilot",
+                             "make-skill"]),
 ]
 
 

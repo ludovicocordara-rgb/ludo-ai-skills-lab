@@ -41,13 +41,16 @@ Ask in three rounds. Each round is a handful of questions in one message, each w
 
 Start from `templates/CLAUDE.md` in this skill's folder and fill it with the interview answers.
 
-Keep it under 60 lines. Plain sentences, grouped under four headings:
+The template ends with a "How we work" section: the lab's working rules (four steps, questions before building, plain writing, careful changes). Keep it in by default. Tell the user it's there and that they can edit or delete any line. If the user already has their own working rules in an existing CLAUDE.md, keep theirs and ask before adding the lab's.
+
+Keep the personal part under 60 lines; the "How we work" section comes on top of that. Plain sentences, grouped under five headings:
 
 ```markdown
 # About me
 # What I'm working on
 # How to work with me
 # How I write
+# How we work   (the lab's rules, from the template)
 ```
 
 Rules for the content:
