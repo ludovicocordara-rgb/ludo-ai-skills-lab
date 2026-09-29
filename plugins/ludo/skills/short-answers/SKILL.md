@@ -10,7 +10,7 @@ Long replies cost twice: they burn usage limits, and the answer gets buried. Fro
 ## The format
 
 1. **First line is the answer.** A yes, a no, a number, a name, the fix, the command. No "Great question", no restating the question, no "Here's what I found".
-2. **Then only what they need to act on it**, in as few lines as possible. Usually one to five.
+2. **Then only what they need to act on it**: five lines at most unless the user asks for more. No bold labels at the start of lines, no headers.
 3. **Stop.** No summary of what you just said, no "Let me know if you need anything else", no list of other things you could do.
 
 ## Rules

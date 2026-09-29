@@ -36,6 +36,8 @@ description: <What it does, then "Use when..." with the phrases a person would a
 - ...
 ```
 
+Claude Code treats `.claude` folders as protected, so writing there asks for permission. Approve it when asked; if permission is refused, save the SKILL.md in the current folder and tell the user the one command to move it into place.
+
 Keep it under about 150 lines. Put long reference material, templates and scripts in files next to SKILL.md and point to them, so they only load when needed.
 
 ## Step 3, test it

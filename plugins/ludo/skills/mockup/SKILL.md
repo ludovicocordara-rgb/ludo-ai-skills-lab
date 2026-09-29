@@ -22,7 +22,7 @@ Follow `/ludo:design` for all three. Label each with its idea in one line.
 
 ## Step 3, react and refine
 
-Open it in the browser (use the `chrome` tool if installed, to screenshot at desktop and phone widths). Ask the user to pick one, and what to borrow from the others. Revise once or twice until they say "that's it".
+Open it in the browser and look at all three at desktop width (about 1280px) and phone width (390px exactly). Use the `chrome` tool if installed to take the screenshots. Ask the user to pick one, and what to borrow from the others. Revise once or twice until they say "that's it".
 
 ## Step 4, build
 

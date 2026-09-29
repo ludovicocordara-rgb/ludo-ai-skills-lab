@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1, 29 September 2026
+
+- Every skill run live, end to end, on sample input (50 of 50). Fixes from those runs: short-answers stays under five lines, journal writes one file per month without nesting folders, slides, diagram and mockup must check every slide and phone width, make-skill explains the protected .claude folder.
+
 ## 0.2.0, 29 September 2026
 
 - 17 new skills: brainstorm, prompt-coach, deep-research, paper, lbo, three-statement, equity-note, mockup, brand-kit, powerpoint, word-doc, video-cut, morning, journal, test-first, save-points, make-skill. 50 in total.

@@ -9,7 +9,7 @@ Writing three honest lines a night beats a long entry once a month. This skill a
 
 ## Where it lives
 
-`~/journal/` (ask the first time; suggest a private folder that isn't synced to any shared drive). One file per month: `2026-10.md`. Nothing is ever uploaded or shared.
+`~/journal/` by default (ask the first time; suggest a private folder that isn't synced to any shared drive). One file per month directly inside that folder, like `~/journal/2026-10.md`, never a folder inside it. Nothing is ever uploaded or shared.
 
 ## Each night
 

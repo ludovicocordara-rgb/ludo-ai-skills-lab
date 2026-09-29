@@ -31,9 +31,9 @@ Start from `templates/deck.html` in this skill's folder: it already has the layo
 - Charts drawn with inline SVG from real numbers the user gave. Never invent data.
 - Images only from the user's files or ones they approve; say where each came from.
 
-## Step 4, check
+## Step 4, check (every slide, no exceptions)
 
-Open it in the browser and go through every slide. Look for text overflowing the slide, text too small to read from the back of a room (nothing under about 24px at 1080p), and slides with more than one idea. Export the PDF and check the page count matches the slide count.
+Open it in the browser and look at every single slide, including the last one. Rendering some and assuming the rest is not a check. Look for text overflowing the slide, text too small to read from the back of a room (nothing under about 24px at 1080p), and slides with more than one idea. Export the PDF and check the page count matches the slide count.
 
 ## PowerPoint or Google Slides
 

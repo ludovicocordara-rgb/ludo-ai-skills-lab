@@ -36,8 +36,8 @@ Style:
 - Group related boxes in a light outlined region with a small label, instead of coloring every box differently.
 - Numbered steps when order matters.
 
-## Step 4, check
+## Step 4, check (the whole diagram, both widths)
 
-Open it. Can someone who hasn't read the notes explain it back in 30 seconds? Remove any box they wouldn't miss. Check at phone width if it's going on a website.
+Open it and look at every box and arrow, not just the top. Can someone who hasn't read the notes explain it back in 30 seconds? Remove any box they wouldn't miss. Always check it at phone width (about 390px) too; diagrams end up on phones.
 
 For a quick version inside Markdown or GitHub, a Mermaid code block is fine. For anything someone will present or publish, draw the SVG.
