@@ -1,0 +1,70 @@
+{
+  "name": "Jordan Rivera",
+  "contact": {
+    "city": "Claremont, CA",
+    "email": "jordan.rivera@example.edu",
+    "phone": "(555) 010-2030",
+    "linkedin": "www.linkedin.com/in/example"
+  },
+  "sections": [
+    {
+      "header": "EDUCATION",
+      "entries": [
+        {
+          "org": "Example College, ",
+          "loc": "Claremont, CA",
+          "date": "Class of 2029",
+          "title": "Bachelor of Arts in Economics",
+          "labelled": [["Cumulative GPA", ": 3.8/4.0"], ["Relevant coursework", ": Intermediate Microeconomics, Statistics, Intro to Computer Science"]]
+        }
+      ]
+    },
+    {
+      "header": "WORK EXPERIENCE",
+      "entries": [
+        {
+          "org": "Campus Coffee Co., ",
+          "loc": "Claremont, CA",
+          "date": "09/2025 - Present",
+          "title": "Shift Lead",
+          "bullets": [
+            "Lead a team of 4 baristas on weekday morning shifts serving about 300 customers",
+            "Built a Google Sheets inventory tracker with Claude that cut weekly stockouts from 6 to 1"
+          ]
+        },
+        {
+          "org": "City Public Library, ",
+          "loc": "Riverside, CA",
+          "date": "06/2025 - 08/2025",
+          "title": "Summer Intern",
+          "bullets": [
+            "Ran a weekly coding club for 15 middle schoolers",
+            "Wrote a scraper that collected local event listings into one calendar for the library website"
+          ]
+        }
+      ]
+    },
+    {
+      "header": "LEADERSHIP & ACTIVITIES",
+      "entries": [
+        {
+          "org": "AI Skills Lab, ",
+          "loc": "Claremont Colleges",
+          "date": "10/2026 - Present",
+          "title": "Member",
+          "bullets": [
+            "Built and deployed a personal research assistant that finds professors by research interest"
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Skills & Interests",
+      "kv": [
+        ["Languages", ": English (native), Spanish (fluent)"],
+        ["Tools", ": Claude Code, Python, Google Sheets, Excel"],
+        ["Interests", ": Trail running, film photography, history of the Silk Road"]
+      ]
+    }
+  ]
+}

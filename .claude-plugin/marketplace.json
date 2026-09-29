@@ -1,0 +1,12 @@
+{
+  "name": "ludo-ai-skills-lab",
+  "description": "Ludo's AI Skills Lab: skills, agents and tools that supercharge Claude Code.",
+  "owner": { "name": "Ludovico Cordara", "url": "https://github.com/ludovicocordara-rgb" },
+  "plugins": [
+    {
+      "name": "ludo",
+      "source": "./plugins/ludo",
+      "description": "Ludo's skills for school, careers, building and working faster with Claude Code."
+    }
+  ]
+}
