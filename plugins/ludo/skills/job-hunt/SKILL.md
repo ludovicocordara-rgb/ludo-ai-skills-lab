@@ -9,6 +9,8 @@ Most students apply to too many roles with one generic resume, and lose track of
 
 ## Setup (once)
 
+Copy `templates/me.md` and `templates/tracker.csv` from this skill's folder into the user's `job-hunt` folder, then fill `me.md` by interview.
+
 In a folder called `job-hunt`:
 - `me.md`: what the user wants (roles, industries, cities, dates, pay floor, visa needs) and what they bring. Build it by interviewing them, or pull from their CLAUDE.md and resume.
 - `resume.json` or their resume file (see `/ludo:resume`).

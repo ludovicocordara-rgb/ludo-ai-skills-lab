@@ -1,12 +1,25 @@
 {
   "name": "ludo-ai-skills-lab",
   "description": "Ludo's AI Skills Lab: skills, agents and tools that supercharge Claude Code.",
-  "owner": { "name": "Ludovico Cordara", "url": "https://github.com/ludovicocordara-rgb" },
+  "owner": {
+    "name": "Ludovico Cordara",
+    "url": "https://github.com/ludovicocordara-rgb"
+  },
   "plugins": [
     {
       "name": "ludo",
       "source": "./plugins/ludo",
-      "description": "Ludo's skills for school, careers, building and working faster with Claude Code."
+      "description": "33 skills and 4 agents for school, careers, finance, building and working faster with Claude Code."
+    },
+    {
+      "name": "ludo-tools",
+      "source": "./plugins/ludo-tools",
+      "description": "Mac: a private browser Claude can drive and debug websites in, plus up-to-date docs for any coding library. Needs Node.js."
+    },
+    {
+      "name": "ludo-tools-windows",
+      "source": "./plugins/ludo-tools-windows",
+      "description": "Windows: the same tools as ludo-tools, set up for Windows. Needs Node.js."
     }
   ]
 }

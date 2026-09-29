@@ -1,0 +1,49 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  plugins:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+      - name: Validate marketplace and plugins
+        run: |
+          claude plugin validate .
+          for p in plugins/*/; do claude plugin validate "$p"; done
+      - name: Docs match the skills
+        run: python3 tools/build_catalog.py --check
+      - name: Scripts compile
+        run: python3 -m py_compile $(find plugins -name "*.py")
+      - name: Scripts run
+        run: |
+          pip install python-docx openpyxl
+          cd "$RUNNER_TEMP"
+          python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/resume/scripts/build_resume.py" "$GITHUB_WORKSPACE/plugins/ludo/skills/resume/examples/sample.json" r.docx
+          python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/dcf/scripts/dcf_template.py" d.xlsx
+          python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/comps/scripts/comps_template.py" c.xlsx
+          python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/pack-code/scripts/pack.py" "$GITHUB_WORKSPACE" -o p.md
+          echo '{"model":{"display_name":"Sonnet"},"context_window":{"used_percentage":50}}' | python3 "$GITHUB_WORKSPACE/plugins/ludo/skills/usage-meter/scripts/usage-meter.py"
+      - name: Installer syntax (bash)
+        run: bash -n install.sh
+
+  windows-installer:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installer syntax (PowerShell)
+        shell: pwsh
+        run: |
+          $errors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile("$PWD\install.ps1", [ref]$null, [ref]$errors) | Out-Null
+          if ($errors) { $errors; exit 1 } else { "install.ps1 parses cleanly" }

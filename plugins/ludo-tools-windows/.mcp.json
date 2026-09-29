@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "chrome": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "chrome-devtools-mcp@latest", "--isolated", "--viewport", "1280x800", "--screenshotFormat", "jpeg", "--screenshotQuality", "70", "--screenshotMaxWidth", "1280", "--usageStatistics", "false", "--performanceCrux", "false"]
+    },
+    "docs": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@upstash/context7-mcp@latest"]
+    }
+  }
+}

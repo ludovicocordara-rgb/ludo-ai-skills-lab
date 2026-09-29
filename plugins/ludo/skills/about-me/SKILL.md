@@ -39,6 +39,8 @@ Ask in three rounds. Each round is a handful of questions in one message, each w
 
 ## Writing the file
 
+Start from `templates/CLAUDE.md` in this skill's folder and fill it with the interview answers.
+
 Keep it under 60 lines. Plain sentences, grouped under four headings:
 
 ```markdown

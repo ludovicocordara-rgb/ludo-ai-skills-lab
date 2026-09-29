@@ -18,6 +18,8 @@ Ask three quick things, multiple choice:
 
 ## Step 2, build the question bank
 
+Start from `templates/questions.md` and `templates/progress.md` in this skill's folder.
+
 Write the bank to `questions.md` so it survives the session:
 - Cover every topic in proportion to how much class time it got.
 - Mix levels: recall (what is X), understanding (why does X happen), application (given this new case, what happens).

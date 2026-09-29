@@ -1,0 +1,9 @@
+{
+  "name": "ludo-tools",
+  "version": "0.1.0",
+  "description": "Ludo's tools for Claude Code (Mac): a private browser Claude can drive and debug websites in, and up-to-date docs for any coding library. Needs Node.js.",
+  "author": { "name": "Ludovico Cordara", "url": "https://www.linkedin.com/in/ludovico-cordara" },
+  "homepage": "https://github.com/ludovicocordara-rgb/ludo-ai-skills-lab",
+  "repository": "https://github.com/ludovicocordara-rgb/ludo-ai-skills-lab",
+  "license": "MIT"
+}

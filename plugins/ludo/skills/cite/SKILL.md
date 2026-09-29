@@ -24,6 +24,8 @@ If a detail cannot be found, leave it out the way the style guide says to (for e
 
 ## Step 3, format
 
+`reference/styles.md` in this skill's folder has worked examples for APA 7, MLA 9 and Chicago 17. Match them exactly.
+
 - Follow the style exactly: capitalization, italics, punctuation, the order of names, "et al." rules, hanging indent.
 - Sort the list the way the style requires (alphabetical by first author for APA and MLA).
 - Give in-text citation examples for each source too: `(Rivera, 2024, p. 12)` for APA, `(Rivera 12)` for MLA.

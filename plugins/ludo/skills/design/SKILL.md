@@ -41,6 +41,25 @@ Ask, or infer from the request:
 - Subtle and smooth. Fade or slide in place; never make content vanish and redraw.
 - Animate charts only when they scroll into view.
 
+## Ready-made starting points
+
+Pick one set, then adjust. All pairings are free Google Fonts.
+
+| Feeling | Heading font | Body font | Background | Text | Accent |
+|---|---|---|---|---|---|
+| Editorial | Newsreader | Inter | #F6F3EE | #1C1B19 | #B4492D |
+| Technical | Inter Tight | Inter | #FAFAFA | #111111 | #2F5BEA |
+| Warm studio | Fraunces | Source Sans 3 | #F4EFE6 | #262422 | #D97757 |
+| Finance | Source Serif 4 | IBM Plex Sans | #FFFFFF | #0F1B2D | #1F6F5C |
+| Bold poster | Archivo Black | Archivo | #F2F0EA | #0A0A0A | #E4412B |
+| Dark (only if asked) | Space Grotesk | Inter | #101010 | #EDEDED | #7CD1B8 |
+
+Common page layouts that work:
+- **Personal site:** name and one line on top, three to five projects as simple rows (title, one line, link), a short about, contact at the bottom.
+- **Landing page:** headline and one line, one screenshot of the real product, three short "how it works" steps, one call to action repeated at the end.
+- **Dashboard:** the three numbers that matter at the top in plain rows, one main chart, a table below. Filters in one line above the table.
+- **Portfolio or case study:** big image, what the problem was, what you did, what changed (with a number), one lesson.
+
 ## Banned by default
 
 Purple-to-blue gradients, glassmorphism everywhere, three equal feature cards with icons, pill badges on every heading, heavy drop shadows, stock "diverse team laughing" photos, emoji as icons, "Trusted by" logo strips with made-up logos, fake testimonials, and invented statistics.

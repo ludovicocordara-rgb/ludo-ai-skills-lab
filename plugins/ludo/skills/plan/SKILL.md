@@ -21,6 +21,8 @@ Good questions are decisions the person can answer without knowing how to code:
 
 ## Step 3, write plan.md
 
+Copy `templates/plan.md` from this skill's folder and fill it in. The shape:
+
 ```markdown
 # <Project name>
 
