@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2, 30 September 2026
+
+- about-me: every question Claude asks is now multiple choice with the AskUserQuestion tool (the clickable picker), recommended option first. The interview itself uses the picker too.
+- Windows guide: install Git first (the plugin marketplace needs it), same command as the week 1 slides.
+
 ## 0.2.1, 29 September 2026
 
 - Every skill run live, end to end, on sample input (50 of 50). Fixes from those runs: short-answers stays under five lines, journal writes one file per month without nesting folders, slides, diagram and mockup must check every slide and phone width, make-skill explains the protected .claude folder.

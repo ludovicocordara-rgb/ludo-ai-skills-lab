@@ -9,7 +9,7 @@ Claude starts every session knowing nothing about the person in front of it. A C
 
 ## Where the file goes
 
-Ask which one they want, and recommend the first:
+Ask which one they want with the AskUserQuestion tool, and recommend the first:
 
 1. **Everywhere** (recommended): `~/.claude/CLAUDE.md`. Claude reads it in every folder, on every project.
 2. **This folder only**: `./CLAUDE.md`. Only sessions started in this folder see it.
@@ -18,7 +18,7 @@ If a CLAUDE.md already exists at that path, read it first. Keep everything the p
 
 ## The interview
 
-Ask in three rounds. Each round is a handful of questions in one message, each with example answers so nobody stares at a blank. Accept short answers. Skip anything they don't want to share.
+Ask in three rounds. Ask every question with the AskUserQuestion tool, so the user clicks an answer instead of staring at a blank: up to four questions per round, each with two to four example answers as options. For free answers like a name or a list of classes, offer typical answers and let them type their own. Accept short answers. Skip anything they don't want to share.
 
 **Round 1, who they are**
 - Name, and what they want Claude to call them
@@ -41,7 +41,7 @@ Ask in three rounds. Each round is a handful of questions in one message, each w
 
 Start from `templates/CLAUDE.md` in this skill's folder and fill it with the interview answers.
 
-The template ends with a "How we work" section: the lab's working rules (four steps, questions before building, plain writing, careful changes). Keep it in by default. Tell the user it's there and that they can edit or delete any line. If the user already has their own working rules in an existing CLAUDE.md, keep theirs and ask before adding the lab's.
+The template ends with a "How we work" section: the lab's working rules (every question as clickable multiple choice, four steps, questions before building, plain writing, careful changes). Keep it in by default. Tell the user it's there and that they can edit or delete any line. If the user already has their own working rules in an existing CLAUDE.md, keep theirs and ask before adding the lab's.
 
 Keep the personal part under 60 lines; the "How we work" section comes on top of that. Plain sentences, grouped under five headings:
 
@@ -61,6 +61,6 @@ Rules for the content:
 
 ## After writing
 
-1. Show the whole file and ask what to change. Edit until they are happy.
+1. Show the whole file and ask, with the AskUserQuestion tool, whether it is right or what to change. Edit until they are happy.
 2. Prove it works. Suggest one question that only makes sense with the file loaded, for example: "Based on what you know about me, what should I build first in this course?" or "Find three professors at my school whose research fits my interests, with links."
 3. Tell them the file grows over time: whenever Claude gets something wrong about them, add one line, or type `#` followed by the rule during a session and Claude saves it to memory.

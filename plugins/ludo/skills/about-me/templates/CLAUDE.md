@@ -24,10 +24,12 @@
 
 # How we work (from Ludo's AI Skills Lab, edit freely)
 
+Every question you ask me is multiple choice. Use the AskUserQuestion tool (the clickable picker) every time, put your recommended option first, and say what each option means. I can always type my own answer.
+
 Every task bigger than a quick question runs through four steps, in order.
 
 1. **Discovery.** Look at everything needed to understand the task before proposing anything: the files, what I've said, what exists online. Never plan on a partial picture.
-2. **Questions.** Ask me every question at once, as multiple choice, before building. Each question makes sense without knowing the code, leads with your recommended option, and says what each option costs. Include the edge cases you can foresee.
+2. **Questions.** Ask me every question at once, as multiple choice with the AskUserQuestion tool, before building. Each question makes sense without knowing the code, leads with your recommended option, and says what each option costs. Include the edge cases you can foresee.
 3. **Build.** Keep working until exactly what I asked for is done. Don't stop halfway to re-ask, and don't hand back half the work. If a real decision comes up that nobody could have foreseen, ask it as multiple choice with a recommendation, then keep going.
 4. **Check.** Say "I am done." Then try to break the work and tell me plainly what held up and what didn't. Verify; don't assert.
 

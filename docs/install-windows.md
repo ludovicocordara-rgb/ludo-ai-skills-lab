@@ -29,6 +29,14 @@ A browser window opens. Log in with your Claude account (the one with Pro). Type
 
 ## 4. The lab
 
+First install Git, which the lab's plugin marketplace needs. Paste this in PowerShell, not inside Claude:
+
+```powershell
+winget install --id Git.Git -e --source winget --accept-source-agreements --accept-package-agreements
+```
+
+If it says `'winget' is not recognized`, download Git from https://git-scm.com/downloads/win and click Next on every screen. Close the window and open a new PowerShell window, then:
+
 ```powershell
 irm https://raw.githubusercontent.com/ludovicocordara-rgb/ludo-ai-skills-lab/main/install.ps1 | iex
 ```
@@ -41,7 +49,7 @@ Download the **LTS** version from https://nodejs.org, run the installer, open a 
 claude plugin install ludo-tools-windows@ludo-ai-skills-lab
 ```
 
-Git for Windows is optional. WSL is not needed.
+WSL is not needed.
 
 ## Something went wrong?
 
