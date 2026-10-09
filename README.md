@@ -2,7 +2,7 @@
 
 **50 skills, 4 agents and 2 power tools that turn Claude Code into a research assistant, tutor, analyst, designer and engineer.** One install. Works on Mac and Windows.
 
-Built by [Ludovico Cordara](https://www.linkedin.com/in/ludovico-cordara), founder of [Krypton AI](https://kryptonai.io), for the AI Skills Lab at the Claremont Colleges, run with the Randall Lewis Center for Innovation and Entrepreneurship and Anthropic.
+Built by [Ludovico Cordara](https://ludovicocordara.com), founder of [Krypton AI](https://kryptonai.io), for the AI Skills Lab at the Claremont Colleges, run with the Randall Lewis Center for Innovation and Entrepreneurship and Anthropic.
 
 ---
 
@@ -93,6 +93,6 @@ Skills never send email, submit applications, spend money or publish anything wi
 
 ## Contact
 
-[GitHub](https://github.com/ludovicocordara-rgb) · [LinkedIn](https://www.linkedin.com/in/ludovico-cordara) · [Krypton AI](https://kryptonai.io)
+[Website](https://ludovicocordara.com) · [GitHub](https://github.com/ludovicocordara-rgb) · [LinkedIn](https://www.linkedin.com/in/ludovico-cordara) · [Krypton AI](https://kryptonai.io)
 
 MIT License © 2026 Ludovico Cordara
